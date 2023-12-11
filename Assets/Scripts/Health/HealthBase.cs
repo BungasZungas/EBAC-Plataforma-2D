@@ -6,7 +6,7 @@ public class HealthBase : MonoBehaviour
 {
     public int startLife = 10;
 
-    public bool destruyOnKill = false;
+    public bool destroyOnKill = false;
 
     public float delayToKill = 0f;
 
@@ -43,7 +43,7 @@ public class HealthBase : MonoBehaviour
     {
         _isDead = true;
 
-        if (destruyOnKill)
+        if (destroyOnKill)
         {
             Destroy(gameObject, delayToKill);
         }

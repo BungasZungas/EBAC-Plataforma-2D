@@ -224,13 +224,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_text
-      value: 'Credits
-
-'
+      value: Sobre
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_fontSize
-      value: 51
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_fontStyle
@@ -817,11 +815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_text
-      value: Exit
+      value: Sair
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_fontSize
-      value: 51
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_fontStyle
@@ -958,9 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_text
-      value: 'Play
-
-'
+      value: Jogar
       objectReference: {fileID: 0}
     - target: {fileID: 5663618902823580268, guid: b27a98328f8feda4d9030a61da07fd1e, type: 3}
       propertyPath: m_fontSize
