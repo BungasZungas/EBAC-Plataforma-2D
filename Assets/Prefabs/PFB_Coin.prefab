@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2445594830247476449}
   - component: {fileID: 4164604479439055762}
-  - component: {fileID: 5510977168319072068}
+  - component: {fileID: 1085135114285177178}
+  - component: {fileID: 8248080599826170024}
   m_Layer: 0
   m_Name: PFB_Coin
   m_TagString: Untagged
@@ -49,7 +50,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9
---- !u!114 &5510977168319072068
+--- !u!210 &1085135114285177178
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2445594830247476448}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 12
+--- !u!114 &8248080599826170024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,10 +70,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2445594830247476448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 715ad38166cbfd24da85fddbcb3ad10e, type: 3}
+  m_Script: {fileID: 11500000, guid: f424925f20a8eeb4da07e24bbbd4df9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
+  compareTag: Player
 --- !u!1 &2769894787025776709
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +144,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: de085835d504f71449418b1ac8036134, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

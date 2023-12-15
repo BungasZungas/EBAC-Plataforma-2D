@@ -360,6 +360,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!210 &6990852551600930243
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3172524715885381094}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 23
 --- !u!1 &4638734327190524125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,5 +1373,10 @@ Transform:
 --- !u!4 &2616809535132260505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 947413611075204424, guid: 8f0a112dd4756bf4fb5e36b6a29ebf4d, type: 3}
+  m_PrefabInstance: {fileID: 2987335437580250577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3172524715885381094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 392437325761013815, guid: 8f0a112dd4756bf4fb5e36b6a29ebf4d, type: 3}
   m_PrefabInstance: {fileID: 2987335437580250577}
   m_PrefabAsset: {fileID: 0}
