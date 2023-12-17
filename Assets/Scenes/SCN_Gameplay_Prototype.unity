@@ -845,9 +845,9 @@ MonoBehaviour:
   speed: 10
   speedRun: 15
   forceJump: 15
-  jumpScaleY: 1.1
-  jumpScaleX: 0.9
-  animationDuration: 0.75
+  soJumpScaleY: {fileID: 11400000, guid: 377a93a9552e05d4283e19206a2410c9, type: 2}
+  soJumpScaleX: {fileID: 11400000, guid: d58df4469a38e544abe9ea052145a16b, type: 2}
+  soAnimationDuration: {fileID: 11400000, guid: 4daa0f5779e0366449e4eed7ea4ba31c, type: 2}
   ease: 27
   boolRun: Run
   triggerDeath: Death
@@ -1960,6 +1960,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &563038025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563038026}
+  - component: {fileID: 563038027}
+  m_Layer: 0
+  m_Name: UIInGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563038026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563038025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730983867}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &563038027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563038025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57ba1c308f5b204887a74ede430eefb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiTextCoins: {fileID: 596157887}
 --- !u!212 &587617076 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 1637968192941115163, guid: 00afc9fb4087652419d090da0b825d97, type: 3}
@@ -1976,6 +2020,7 @@ GameObject:
   - component: {fileID: 596157886}
   - component: {fileID: 596157888}
   - component: {fileID: 596157887}
+  - component: {fileID: 596157889}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2099,6 +2144,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596157885}
   m_CullTransparentMesh: 1
+--- !u!114 &596157889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596157885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe0594835012ab48853622eb9c07bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soInt: {fileID: 11400000, guid: 3b5ea166b79a3354d8421ed3e3650ec5, type: 2}
+  uiTextValue: {fileID: 596157887}
 --- !u!1 &598920927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,7 +2940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715ad38166cbfd24da85fddbcb3ad10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
+  coins: {fileID: 11400000, guid: 3b5ea166b79a3354d8421ed3e3650ec5, type: 2}
   uiTextCoins: {fileID: 596157887}
 --- !u!4 &980267798
 Transform:
@@ -4760,6 +4819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 980267798}
+  - {fileID: 563038026}
   m_Father: {fileID: 88699963}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
