@@ -11,7 +11,7 @@ public class ItemCollactableBase : MonoBehaviour
 
     private void Awake()
     {
-        //if (particleSystem != null) particleSystem.transform.SetParent(null);
+        if (particlesSystem != null) particlesSystem.transform.SetParent(null);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
