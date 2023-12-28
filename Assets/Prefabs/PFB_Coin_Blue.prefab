@@ -148,6 +148,8 @@ MonoBehaviour:
   particlesSystem: {fileID: 1142428738589343363}
   timeToHide: 3
   graphicItem: {fileID: 307385304924187023}
+  audioSource: {fileID: 0}
+  collider: {fileID: 2053596837964152573}
 --- !u!1001 &4802885101600548063
 PrefabInstance:
   m_ObjectHideFlags: 0

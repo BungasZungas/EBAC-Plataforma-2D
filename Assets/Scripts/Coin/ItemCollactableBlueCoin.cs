@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class ItemCollactableBlueCoin : ItemCollactableBase
 {
+    public Collider2D collider;
+
     protected override void OnCollect()
     {
         base.OnCollect();
-        ItemManager.Instance.AddBlueCoins();
+        collider.enabled = false;
+        ItemManager.Instance.AddCoins();
     }
 }
