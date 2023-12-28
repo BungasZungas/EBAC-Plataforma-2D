@@ -10,6 +10,6 @@ public class ItemCollactableBlueCoin : ItemCollactableBase
     {
         base.OnCollect();
         collider.enabled = false;
-        ItemManager.Instance.AddCoins();
+        ItemManager.Instance.AddBlueCoins();
     }
 }

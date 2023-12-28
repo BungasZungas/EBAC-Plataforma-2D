@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     public float disToGround;
     public float spaceToGround = 0.1f;
     public ParticleSystem jumpVFX;
+    public AudioSource audioSourceJump;
 
 
     private void Awake()
@@ -118,6 +119,8 @@ public class Player : MonoBehaviour
             myRigidbody.transform.localScale = Vector2.one;
 
             DOTween.Kill(myRigidbody.transform);
+
+            audioSourceJump.Play();
 
             HandleScaleJump();
             PlayJumpVFX();
